@@ -1,0 +1,2 @@
+import numpy
+print(numpy.arange(5,17,2))
