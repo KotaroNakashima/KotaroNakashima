@@ -1,0 +1,4 @@
+import numpy
+a=numpy.array([[0,1,7],[4,2,7]])
+print(a.shape)
+print(a.size)
