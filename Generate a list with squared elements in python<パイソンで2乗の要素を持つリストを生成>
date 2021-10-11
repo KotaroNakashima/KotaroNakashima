@@ -1,0 +1,4 @@
+x=[]
+for v in range(10):
+    x.append(v**2)
+print(x)
