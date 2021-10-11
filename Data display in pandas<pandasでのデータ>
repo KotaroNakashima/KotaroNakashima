@@ -1,0 +1,5 @@
+import numpy
+numpy.random.seed(42)
+import pandas
+data=numpy.random.randn(10,5)
+print(data)
