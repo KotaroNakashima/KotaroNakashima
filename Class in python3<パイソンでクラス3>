@@ -1,0 +1,10 @@
+class human:
+     def __init__(self,o,p,q,)
+         self.o=o
+         self.p=p
+         self.q=q
+     def r(self,):
+         print("你好“）
+x=human("tanaka",170,50)
+print(x.o,x.p,x.q)
+x.r()
