@@ -1,0 +1,7 @@
+class human:
+     def __init__(self,name,height,weight):
+     self.name=name
+     self.height=height
+     self.weight=weight
+x=human("tanaka",170,50)
+print(x.name,x.height,x.weight)
