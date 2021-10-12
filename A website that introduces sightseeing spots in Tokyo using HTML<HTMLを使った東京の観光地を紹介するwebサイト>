@@ -18,11 +18,11 @@
         <br>
             <nav id="sss">
             <ul class="rrr">
-                <li><a href="#" >東京スカイツリー</a></li>
-                <li><a href="#" >浅草寺</a></li>
-                <li><a href="#" >秋葉原</a></li>
-                <li><a href="#" >上野公園</a></li>
-                <li><a href="#" >東京タワー</a></li>
+                <li><a href="#skytree" >東京スカイツリー</a></li>
+                <li><a href="#asakusa" >浅草寺</a></li>
+                <li><a href="#akihabara" >秋葉原</a></li>
+                <li><a href="#ueno" >上野公園</a></li>
+                <li><a href="#tower" >東京タワー</a></li>
             </ul>
         </nav>
     </div>
@@ -39,14 +39,14 @@
         <div class="maininner">
 <article>
 <div class="mainbar">
-    <h2>&nbsp; 1 東京スカイツリー</h2>
+    <h2 id="skytree">&nbsp; 1 東京スカイツリー</h2>
     <p>
         <img src="https://www.kaigo-antenna.jp/uploads/spot_content/main_image/3/01.jpg" alt="东京晴空塔" width="100%" height="50%"><br>
         <br>
         <br>
         東京スカイツリーは、東京都墨田区押上1-1-2にある電波塔であり、東武鉄道及び東武グループのシンボル的存在です。
     </p>
-    <h2>&nbsp; 2 浅草寺</h2>
+    <h2 id="asakusa">&nbsp; 2 浅草寺</h2>
     <p>
         <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Asakusa-1024x576.jpg" alt="浅草" width="100%" height="50%">
         <br>
@@ -56,21 +56,21 @@
         <br>
         <br>
     </p>
-    <h2>&nbsp; 3 秋葉原</h2>
+    <h2 id="akihabara">&nbsp; 3 秋葉原</h2>
     <p>
         <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Akihabara-1024x576.jpg" alt="秋叶原" width="100%" height="50%">
         <br>
         <br>
         秋葉原は小さな露店からヨドバシ マルチメディア Akiba のような大型店まで、幅広いエレクトロニクス小売店が集まる活気あるショッピング街。
     </p>
-    <h2>&nbsp; 4 上野公園</h2>
+    <h2 id="ueno">&nbsp; 4 上野公園</h2>
 　　<p>
     <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Ueno-Park-1024x576.jpg" alt="上野公园" width="100%" height="50%">
     <br>
     <br>
     上野恩賜公園は、東京都台東区にある公園。通称上野公園。「上野の森」とも呼ばれ、武蔵野台地末端の舌状台地「上野台」に公園が位置することから「上野の山」とも呼ばれます。<br>
 　　</p>
-    <h2>&nbsp; 5 東京タワー</h2>
+    <h2 id="tower">&nbsp; 5 東京タワー</h2>
     <p>
         <img src="https://www.knt.co.jp/tabiplanet/image/kokunai_200221_mv.jpg" alt="东京塔" width="100%" height="50%">
         <br>
