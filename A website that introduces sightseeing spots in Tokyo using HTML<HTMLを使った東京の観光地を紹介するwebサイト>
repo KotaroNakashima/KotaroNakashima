@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>東京観光おすすめスポット</title>
+    <link rel="stylesheet" href="./eee.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./eee.js"></script>
+</head>
+<body>
+    <header>
+    <div class="abc">
+        <div class="headerinner">
+            <h1>&nbsp; 東京観光おすすめスポット</h1>
+        <p>&nbsp;  &nbsp; 東京の観光地を５つ紹介します</p> 
+        <br>
+            <nav id="sss">
+            <ul class="rrr">
+                <li><a href="#" >東京スカイツリー</a></li>
+                <li><a href="#" >浅草寺</a></li>
+                <li><a href="#" >秋葉原</a></li>
+                <li><a href="#" >上野公園</a></li>
+                <li><a href="#" >東京タワー</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<div class="show"><img src="https://www.tokyo-solamachi.jp/enjoy/spot/img/img-skytree-spot-02.png" alt="a" width="100%" height="50%"></div>
+            <table>
+                <tr>
+                    <th><a href="eee.html">目次</a></th>
+                    <td>&nbsp; 東京スカイツリー　浅草寺　秋葉原　上野公園　東京タワー</td>
+                </tr>
+            </table>
+    <main>
+        <div class="maininner">
+<article>
+<div class="mainbar">
+    <h2>&nbsp; 1 東京スカイツリー</h2>
+    <p>
+        <img src="https://www.kaigo-antenna.jp/uploads/spot_content/main_image/3/01.jpg" alt="东京晴空塔" width="100%" height="50%"><br>
+        <br>
+        <br>
+        東京スカイツリーは、東京都墨田区押上1-1-2にある電波塔であり、東武鉄道及び東武グループのシンボル的存在です。
+    </p>
+    <h2>&nbsp; 2 浅草寺</h2>
+    <p>
+        <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Asakusa-1024x576.jpg" alt="浅草" width="100%" height="50%">
+        <br>
+        <br>
+        浅草には昔の東京の雰囲気が残っており、歴史ある浅草寺の近くの仲見世通り沿いに、伝統的な手工芸品や食べものの屋台があります。
+        <br>
+        <br>
+        <br>
+    </p>
+    <h2>&nbsp; 3 秋葉原</h2>
+    <p>
+        <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Akihabara-1024x576.jpg" alt="秋叶原" width="100%" height="50%">
+        <br>
+        <br>
+        秋葉原は小さな露店からヨドバシ マルチメディア Akiba のような大型店まで、幅広いエレクトロニクス小売店が集まる活気あるショッピング街。
+    </p>
+    <h2>&nbsp; 4 上野公園</h2>
+　　<p>
+    <img src="https://anaintercontinental-tokyo.jp/wp-content/uploads/2018/07/Ueno-Park-1024x576.jpg" alt="上野公园" width="100%" height="50%">
+    <br>
+    <br>
+    上野恩賜公園は、東京都台東区にある公園。通称上野公園。「上野の森」とも呼ばれ、武蔵野台地末端の舌状台地「上野台」に公園が位置することから「上野の山」とも呼ばれます。<br>
+　　</p>
+    <h2>&nbsp; 5 東京タワー</h2>
+    <p>
+        <img src="https://www.knt.co.jp/tabiplanet/image/kokunai_200221_mv.jpg" alt="东京塔" width="100%" height="50%">
+        <br>
+        <br>
+        東京タワーは、日本の東京都港区芝公園にある総合電波塔の愛称です。正式名称は日本電波塔。
+        <br>
+        <br>
+        <div class="hover-transition">
+        </div>
+    </p>
+</div>
+    
+<div class="side">
+        <div class="d">
+        <p class="ddd">他にも東京観光スポットを紹介</p>
+        <ul>
+            <li>&nbsp; 新宿御苑</li>
+            <p class="naiyou">新宿御苑は、東京都新宿区と渋谷区に跨がる環境省所管の庭園です。</p><br><br>
+            <li>&nbsp; アメヤ横丁</li>
+            <p class="naiyou">鮮魚から食品、衣料品や雑貨までありとあらゆるものが激安価格で並んでいます。
+                食べ歩きグルメも充実しているので、ぜひ東京観光の際は訪れてみてください。</p><br><br>
+            <li>&nbsp; 銀座</li>
+            <p class="naiyou">高級ブランド店や有名レストランが立ち並ぶ銀座は大人の街歩きスポットとして人気です。
+            </p><br><br>
+            <li>&nbsp; 日本橋</li>
+            <p class="naiyou">江戸時代に東海道や中山道の起点となった日本橋の周辺には重要文化財に指定されている建築物も多く、歴史を感じられるエリアです。
+            </p><br><br>
+            <li>&nbsp; 国会議事堂</li>
+            <p class="naiyou">完成までに17年を要した堅固で荘厳なデザインの建築は、真っ白な御影石が使用され左右対称の美しい外観が特徴的。
+            </p><br><br>
+            <li>&nbsp; レインボーブリッジ</li>
+            <p class="naiyou">レインボーブリッジは、東京都の港区芝浦地区と台場地区を結ぶ吊橋。1987年着工、1993年竣工、同年8月26日開通。 </p><br><br>
+            <li>&nbsp; 新宿</li>
+            <p class="naiyou">新宿区には、ネオン輝くにぎやかなクラブやカラオケルームが並ぶ東新宿と、高級ホテルのバーやレストランを備えた高層ビル地区があります。</p><br>
+            <li>&nbsp; 渋谷</li>
+            <p class="naiyou">新宿・池袋と並ぶ3大副都心の一つであり、渋谷駅を中心とした日本有数の繁華街です。</p><br><br>
+            <li>&nbsp; 東京ディズニーランド</li>
+            <p class="naiyou">東京ディズニーランドは、千葉県浦安市舞浜にある東京ディズニーリゾートを形成する日本のディズニーパーク。</p><br><br>
+            <li>&nbsp;　国立競技場</li>
+            <p class="naiyou">1958年（昭和33年）に開場した国立霞ヶ丘競技場陸上競技場（旧・国立競技場）の老朽化対応と、東京オリンピック・パラリンピックの主会場とすることを念頭に、旧・国立競技場の全面改築により建てられた施設で、新国立競技場の仮称にて2012年より建設事業に着手。</p><br><br>
+        </ul>
+    </div>
+    <br><br>
+    </div>
+</article>
+        </div>
+</main>
+<footer>
+<div class="footerinner">
+    <br>
+    <small>&copy; 東京観光おすすめスポット</small>
+</div>
+</footer>
+</body>
+</html>
