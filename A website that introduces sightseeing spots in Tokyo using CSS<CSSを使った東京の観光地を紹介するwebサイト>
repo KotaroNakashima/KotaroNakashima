@@ -1,0 +1,199 @@
+h1{
+    background-color: gainsboro;
+    color: brown;
+    border-bottom-style: solid;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+h2{
+    color: brown;
+    font-size: 32px;
+    border-bottom-style: solid;
+    background-color: gainsboro;
+    margin-top: 60px;
+    border-radius: 40px;
+}
+#nav{
+    margin: 0 0 0 0;
+    text-align: center;
+}
+main{
+    padding: 0 0 0 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+}
+img.displayed{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+table{
+    width: 100%;
+    border-radius: 10px;
+}
+table,th,td{
+    border: solid gray;
+    border-collapse: collapse;
+}
+th{
+    padding: 0px;
+    width: 10px;
+    height: 10px;
+}
+.hover-transition{
+    text-align: center;
+}
+.hover-transition a{
+    text-align: center;
+    background: brown;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 500ms;
+    text-decoration: none;
+}
+.hover-transition a:hover{
+    background: orange;
+   transform: scale(1.3,1.3);
+}
+th a{
+    text-decoration: none;
+    color: white;
+    background: brown;
+    width: 300px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    transition: 300ms;
+}
+th a:hover{
+background: orange;
+}
+td{
+    background: whitesmoke;
+}
+footer{
+    text-align: center;
+    background: gainsboro;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+    margin-top: 50px;
+}
+.footerinner{
+    line-height: 30px;
+}
+.d{
+    width: 95%;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: brown;
+    font-size: 24px;
+    background: whitesmoke;
+    height: 2600px;
+    border-radius: 10px;
+    border-style: ridge;
+}
+.mainbar{
+    text-align: center;
+    width: 300%;
+    margin-right: 10px;
+}
+article{
+    display: flex;
+}
+.side ul li{
+    border-bottom-style: dotted;
+    margin-right: 20px;
+}
+.ddd{
+    text-align: center;
+    color: teal;
+    border-bottom-style: dotted;
+    margin: 20px;
+}
+.naiyou{
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+#sss ul li{
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 40px;
+    border-bottom-style: solid;
+    transition: 500ms;
+    font-size: 11px;
+}
+#sss ul li:hover{
+    background-color: orange;
+}
+#sss ul a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 20px;
+}
+.e{
+    color:green;
+    font-size: 24px;
+    text-align: center;
+    border-style: ridge;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+h3{
+    border-bottom-style: dotted;
+    margin: 20px;
+}
+.kaisetsu{
+    color: black;
+    font-size: 18px;
+}
+.slide ul li{
+    list-style: none;
+}
+.show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide{
+    width: 1400px;
+    overflow: hidden;
+}
+.slide ul{
+    display: flex;
+}
+button{
+    width: 90px;
+    height: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+    background: gainsboro;
+    color: black;
+    transition: 500ms;
+}
+button:hover{
+    background: orange;
+}
+
