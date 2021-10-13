@@ -1,0 +1,137 @@
+//header.php
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo("charset");?>">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+    <title>
+<?php wp_title("",true,"right"); ?>
+<?php bloginfo("name"); ?>
+    </title>
+
+</head>
+<body <?php body_class(); ?>>
+<header>
+<h1 class="logo">
+            <a class="title" href="http://zhongguo.local/">中国の大都市の紹介</a>
+<a href="<?php echo esc_url( home_url("/")); ?>"></a>
+        </h1>
+        <nav class="pcmenu">
+            <ul>
+            <li><a href="http://zhongguo.local/%e6%b7%b1%e5%9c%b3%e6%99%af%e7%82%b9/">深圳</a></li>
+            <li><a href="http://zhongguo.local/%e5%8c%97%e4%ba%ac%e6%99%af%e7%82%b9/#">北京</a></li>
+            <li><a href="http://zhongguo.local/%e4%b8%8a%e6%b5%b7%e6%99%af%e7%82%b9/">上海</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
+
+//index.php
+<?php get_header(); ?>
+<main>
+    <?php
+    if(have_posts()):
+     while (have_posts()): the_post();
+     ?>
+     <div class="post">
+     <?php 
+    if ( has_post_thumbnail() ) {
+      the_post_thumbnail('thumbnail');
+    }?>
+         <h2>
+             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+         </h2>
+         <?php the_excerpt();?>
+     </div>
+     <?php
+     endwhile;
+    else:
+        ?>
+        <div class="post">
+          <h2>記事はありません</h2>
+          <p>お探しの記事は見つかりませんでした</p>
+        </div>
+        <?php
+        endif;
+        ?>
+</main>
+<?php get_footer(); ?>
+
+//single.php
+?php get_header(); ?>
+<link rel="stylesheet" href="./style.css">
+<main>
+    <?php< while(have_posts()):the_post(); ?>
+    <div id="post-<?php the_id(); ?>">
+    <h1>
+        <?php the_title(); ?>
+        <br>
+        <?php if(get_field("sub-title")): ?>
+            <div class="sub-title"><?php the_field("sub-title"); ?></div>
+            <?php endif; ?>
+    </h1>
+    <p class="post-meta"></p>
+</div>
+<?php the_content(); ?>
+<?php if(get_field("relation-link")): ?>
+    <p class="relation-link">
+    関連リンク
+    <a href="<?php the_field("relation-link"); ?>" target="_blank">
+    <?php the_field("relation-link"); ?>
+</a>
+    </p>
+    <?php endif; ?>
+<div class="nav">
+    <? if(get_next_post()): ?>
+        <div class="next_page">次の記事：<?php next_post_link("%link"); ?></div>
+        <?php
+        endif;
+
+        if(get_previous_post()):
+            ?>
+            <div class="prev_page">前の記事<?php previous_post_link("%link"); ?></div>
+            <?php
+            endif;
+            ?>
+</div>
+<?php endwhile; ?>
+</main>
+<?php comments_template(); ?>
+<?php get_footer(); ?>
+
+//page.php
+<?php get_header(); ?>
+<main>
+    <div class="main-wrapper">
+        <?php
+        if(have_posts()):
+            while(have_posts()): the_post();
+        ?>
+        <h1 class="text-center"><?php the_title(); ?></h1>
+        <? 
+        the_content();
+        endwhile;
+    endif;
+    ?>
+    </div>
+</main>
+<?php get_footer; ?>
+
+//functions.php
+<?php
+function my_scripts() {
+  wp_enqueue_script( 'jquery' );
+  wp_enqueue_script( 'javascript',get_template_directory_uri().'/js/sample.js',array('jquery'));
+}
+add_action( 'wp_enqueue_scripts', 'my_scripts' );
+
+add_theme_support( 'post-thumbnails' ); 
+?>
+
+//footer.php
+<?php get_header(); ?>
+    <small>Copyright &copy; zhongguo Co., Ltd.</small>
+<?php get_footer(); ?>
