@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+typedef char String[1024]
+
+int main(void)
+{
+    int x=29;
+    String y="私";
+    printf("%sは%d歳です。",y,x);
+    return 0;
+}
