@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+double main(void)
+{
+      double d=8.5/2;
+      printf("%f/n",d);
+      return 0;
+}
