@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x=110;
+    int y=50000;
+    printf("50000円から４００００円に値下げします。\n");
+    y=40000;
+    printf("FAXの新価格（税込):%d\n",x*y/100);
+    return 0;
+}
