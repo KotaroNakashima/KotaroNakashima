@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x;
+    x=15;
+    printf("私は%d歳です\n",x);
+    return 0;
+}
