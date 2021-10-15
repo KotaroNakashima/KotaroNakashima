@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x=29;
+    printf("今年で%d歳で、",x);
+    int y=x+1;
+    printf("来年は%d歳になります。",y);
+    return 0;
+}
