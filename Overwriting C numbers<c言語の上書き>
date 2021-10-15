@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x=100;
+    printf("私の年齢は%d歳です\n",x");
+    x=50;
+    printf("本当の年齢は%d歳です\n",x);
+    return 0;
+}
