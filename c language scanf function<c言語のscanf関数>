@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef char String[1024];
+
+int main(void)
+{
+    String name;
+    printf("あなたの名前を入力してください\n");
+    scanf("%s",name);
+    return 0;
+}
