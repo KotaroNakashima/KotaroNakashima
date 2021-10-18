@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<stdbool.h>
+
+typedef char String[1024];
+
+int main(void)
+{
+    String x;
+    printf("中国の首都は?\n);
+    printf("1:北京　2:上海　3：深圳 4:広州\n");
+    scanf("%s",x);
+    int n=atoi(x);
+    if(n==1){
+         printf("正解\n");
+    }else{
+         print("不正解\n");
+    }
+    return 0;
+}
