@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stulib.h>
+
+typedef char String[1024];
+
+int main(void)
+{
+    String x="29";
+    int y=atoi(x);
+    printf("あなたは来年%d歳になります。\n",y+1);
+    return 0;
+}
+
+    
