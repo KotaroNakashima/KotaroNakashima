@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+typedef char String[1024];
+
+void y(String x)
+{
+     printf("%sです\n",x);
+}
+int main(void)
+{
+    y("A");
+    y("こんにちは"）;
+    return 0;
+}
+
+    
