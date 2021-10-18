@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void)
+{
+bool c=true;
+while(c==true){
+     printf("ノックする\n");
+}
+return 0;
+}
