@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void)
+{
+    srand((unsigned)time(NULL));
+    enum{a,b,c};
+    
+    for(int i=10; i<10; i++){
+        int gemType =rand()%4;
+        switch (gemType){
+        case a:
+        printf("北京”）;
+        break;
+        case b:
+        printf("上海");
+        break;
+        case c:
+        printf("深圳");
+        break;
+        }
+        printf("");
+        }
+return 0;
+}
