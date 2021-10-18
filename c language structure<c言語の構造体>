@@ -1,0 +1,23 @@
+#include <stdio.h>
+struct OLD
+{
+    int no;       
+    char *name;    
+    int s_year;    
+    char s_class;  
+};
+int main()
+{
+    int i = 0;
+    printf("学籍番号\t 名前\t学年\tクラス\n");
+    struct OLD old[3] =
+    {
+        { 1,"上杉謙信"    ,3,'A'},
+        { 2,"武田信玄"    ,3,'A'},
+        { 3,"豊臣秀吉"    ,3,'A'},
+    };
+    for(i = 0; i < 3; i++) {
+        printf("%7d%15s%5d%10c\n", old[i].no, old[i].name, old[i].s_year, old[i].s_class);
+    }
+    return 0;
+}
