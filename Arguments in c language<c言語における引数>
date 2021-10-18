@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+typedef char String[1024];
+
+void hello(String name)
+{
+     printf("%sさんこんにちは\n",name);
+}
+int main(void)
+{
+    hello("A");
+    hello("B");
+    hello("C");
+    return 0;
+}
