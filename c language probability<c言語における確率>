@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int main(void)
+{
+printf("あなたの運勢を占います");
+int x=rand()%3+1;
+
+switch(x){
+    case 1:
+    printf("いいね\n");
+    break;
+    case 2:
+    printf("普通です\n");
+    break;
+    case 3:
+    printf("うーん\n");
+}
+    return 0;
+}
