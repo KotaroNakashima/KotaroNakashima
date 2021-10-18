@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+typedef char String[1024];
+
+void hello(String x)
+{
+    printf("%s\n",x);
+}
+int main(void)
+{
+    hello("A");
+    hello("こんにちは");
+    return 0;
+}
