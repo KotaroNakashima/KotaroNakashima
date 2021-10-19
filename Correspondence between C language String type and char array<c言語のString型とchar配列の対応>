@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+typedef char String[1024];
+
+int main(void)
+{
+    char x[1024]={104,101,108,108,111,0};
+    String y="hello;
+    printf("%s\n",x);
+    printf("%s\n",y);
+    return 0;
+}
