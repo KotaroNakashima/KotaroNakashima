@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <string.h>
+
+typedef char String[1024];
+
+int main(void)
+{
+    char x[1024]="language";
+    int y=strlen(x);
+    printf("%d",y);
+    return 0;
+}
