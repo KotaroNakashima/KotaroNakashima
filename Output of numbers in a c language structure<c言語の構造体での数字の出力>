@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+struct point{
+   int x;
+   int y;
+}
+main(){
+    struct point p;
+    p.x=200;
+    p.y=300;
+    printf("%d,%d\n",p.x,p.y);
+}
