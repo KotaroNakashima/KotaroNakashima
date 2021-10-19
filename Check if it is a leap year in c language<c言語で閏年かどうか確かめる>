@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void){
+    int x=2016;
+    if(x %4==0){
+         printf("%d年は閏年です。",x);
+    }else{
+         printf("%d年は閏年ではありません。",x);
+    }
+    return 0;
+}
