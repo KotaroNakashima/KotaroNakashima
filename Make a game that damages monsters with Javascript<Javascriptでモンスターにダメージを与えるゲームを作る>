@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        "use strict";
+        var a =100;
+        window.alert("戦闘スタート");
+        while(a>0){
+        const attack=Math.floor(Math.random()*30)+1;
+        console.log("モンスターに"+attack+"のダメージ");
+        a=a-attack;
+        }
+        console.log("モンスターを倒した");
+    </script>
+</body>
+</html>
