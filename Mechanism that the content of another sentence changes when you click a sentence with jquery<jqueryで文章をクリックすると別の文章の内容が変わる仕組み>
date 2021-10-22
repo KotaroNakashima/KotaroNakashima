@@ -1,0 +1,28 @@
+//html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>jQuery</title>
+  <link rel="stylesheet" href="./abc.css">
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./c.js"></script>
+</head>
+<body>
+ <div class="submenu">
+   <h1>click</h1>
+   <h2>Hello</h2>
+ </div>
+</body>
+</html>
+
+//javascript
+
+$(function(){
+  $("h1").click(function(){
+    $("h2").text("こんにちは");
+  });
+});
