@@ -1,0 +1,13 @@
+import random
+
+print("ジャンケンをします。自分の手を入力してください")
+my_hand=int(input("0:グー,1:チョキ,2:パー"))
+you_hand=random.randint(0,2)
+
+x=my_hand-you_hand
+if x==0:
+    print("あいこ")
+elif x==2 or x==-1:
+    print("勝ち")
+else:
+    print("負け")
