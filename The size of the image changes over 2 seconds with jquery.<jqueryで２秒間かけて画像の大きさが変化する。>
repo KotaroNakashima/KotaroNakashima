@@ -1,0 +1,26 @@
+//v.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こんにちは</title>
+    <link rel="stylesheet" href="./v.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./v.js"></script>
+</head>
+<body>
+    <button class="btn">クリック</button>
+    <img class="skytree" src="https://travel.rakuten.co.jp/mytrip/sites/mytrip/files/migration_article_images/howto//tokyoskytree-guide-2.jpg" alt="skytree" width="300px" height="300px">
+</body>
+</html>
+
+//v.js
+
+$(function(){
+  $(".btn").click(function(){
+      $(".skytree").animate({width:"500px",height:"500px"},2000);
+  });
+});
