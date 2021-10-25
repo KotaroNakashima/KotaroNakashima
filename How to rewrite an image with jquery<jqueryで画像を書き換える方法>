@@ -1,0 +1,25 @@
+//html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こんにちは</title>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./v.js"></script>
+</head>
+<body>
+    <button class="btn">クリック</button>
+    <img class="skytree" src="https://travel.rakuten.co.jp/mytrip/sites/mytrip/files/migration_article_images/howto//tokyoskytree-guide-2.jpg" alt="skytree" width="300px" height="300px">
+</body>
+</html>
+
+//javascript
+
+$(function(){
+  $(".btn").click(function(){
+      $(".skytree").attr("src","https://resize2-icotto.k-img.com/yhtF-cSGq_FtfjeATqzlAcJrBTVNZJA_nNTQU2-v2kI/rs:fill:700:467/plain/https://icotto.k-img.com/system/press_images/000/385/555/ff674b01e4d4b392bfd1c7886d94f6aa39de1a37.jpeg");
+  });
+});
