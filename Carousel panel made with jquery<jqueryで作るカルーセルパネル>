@@ -1,0 +1,54 @@
+//v.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>こんにちは</title>
+    <link rel="stylesheet" href="./v.css">
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./v.js"></script>
+</head>
+<body>
+    <div class="ttt">
+    <button class="Abtn">←</button>
+    <div class="sss">
+    <ul>
+    <li><img src="https://cdn2.veltra.com/ptr/20180713051053_704318393_3236_0.jpg?imwidth=800&impolicy=custom" alt="skytree" width="150px" height="150px"></li>
+    <li><img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/04/a0004438/img/basic/a0004438_main.png?20200711233445&q=80&rw=750&rh=536" alt="skytree" width="150px" height="150px"></li>
+    <li><img src="https://clifehack.com/wp-content/uploads/2019/05/8FCB86E4-E724-4F86-BDE3-4C5395AC138F.jpeg" alt="skytree" width="150px" height="150px"></li>
+    </ul>  
+    </div>
+    <button class="Pbtn">→</button>
+    </div>
+</body>
+</html>
+
+//v.css
+
+.sss ul{
+    list-style: none;
+    display: flex;
+}
+.ttt{
+    display: flex;
+}
+.Abtn,.Pbtn{
+    height: 50px;
+    width: 50px;
+    margin: auto 0;
+    background: yellow;
+}
+
+//v.js
+
+$(function(){
+  $(".Abtn").click(function(){
+      $(".sss li:first").appendTo(".sss ul");
+  });
+  $(".Pbtn").click(function(){
+    $(".sss li:last").prependTo(".sss ul");
+});
+});
