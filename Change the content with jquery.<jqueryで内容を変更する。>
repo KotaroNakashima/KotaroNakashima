@@ -1,0 +1,84 @@
+//abc.html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>世界の国々の紹介</title>
+  <link rel="stylesheet" href="./abc.css">
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./c.js"></script>
+</head>
+<body>
+  <h1>&nbsp&nbsp世界の国々の紹介ページ</h1>
+ <div class="submenu">
+   <img class="japan" src="https://thumb.ac-illust.com/f9/f9130a4bd8ff59202eaf79209e90de44_t.jpeg" alt="日本" width="160px" height="100px">
+   <img class="china" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/260px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="中国" width="160px" height="100px">
+　　<img class="korea" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/260px-Flag_of_South_Korea.svg.png" alt="韓国" width="160px" height="100px">
+   <img class="america" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/US_flag_51_stars.svg/284px-US_flag_51_stars.svg.png" alt="アメリカ" width="160px" height="100px">  
+   <p>このホームページでは、世界の国々について紹介しています。<br>
+    　紹介している国は、日本、中国、韓国、アメリカの４つです。<br>
+     国旗をクリックするとクリックした国の情報が表示されます。</p>
+   <h2>日本国</h2>
+   <h3>日本は東アジアに位置する島国です。日本の人口は約1億3000万人です。 日本の首都は東京で、東京スカイツリーや浅草、新宿などの観光地が有名です。</h3>
+   <img class="nippon" src="https://cdn.travel-noted.jp/images/production/posts/eyecatches/000/015/096/original.jpg" width="400px" height="400px">
+ </div>
+</body>
+</html>
+
+//abc.css
+
+img{
+    border-radius: 0px;
+    border: 2px solid black;
+}
+h1{
+    background-color: green;
+    color: white;
+    border-radius: 30px;
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+body{
+    margin: 30px;
+}
+h2{
+    background-color: gainsboro;
+    border-bottom: 2px solid brown;
+    border-radius: 15px;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+//c.js
+
+$(function(){
+  $(".japan").click(function(){
+    $("h2").text("日本国")
+    　　　　.css("border-bottom","2px solid brown");
+    $("h3").text("日本は東アジアに位置する島国です。日本の人口は約1億3000万人です。 日本の首都は東京で、東京スカイツリーや浅草、新宿などの観光地が有名です。");
+    $(".nippon").attr("src","https://cdn.travel-noted.jp/images/production/posts/eyecatches/000/015/096/original.jpg");
+  });
+  $(".china").click(function(){
+    $("h2").text("中華人民共和国")
+    　　　　.css("border-bottom","2px solid red");
+    $("h3").text("中華人民共和国は、中華民国統治下の中国で1921年7月に結党された中国共産党が1949年10月1日に毛沢東中国共産党主席が北京市天安門広場で建国宣言を行ったことで成立しました。中国の人口は約14億人で首都は北京です。");
+    $(".nippon").attr("src","https://whitehole.asia/wp-content/uploads/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180921200737-1024x768.jpg");
+  });
+  $(".korea").click(function(){
+    $("h2").text("大韓民国")
+    　　　　.css("border-bottom","2px solid blue");
+    $("h3").text("大韓民国は、東アジアの朝鮮半島に存在する共和制国家です。首都はソウル特別市です。文化では、BTSやBlackpinkなどのKpopが有名です。");
+    $(".nippon").attr("src","https://d37wt07f7gwihi.cloudfront.net/jp/images/3396408/0bb41a25264c9579494811e9fdab7a93d2d395fa.jpeg?w=400&h=420&quality=75&fit=cover&fm=auto");
+  });
+  $(".america").click(function(){
+    $("h2").text("アメリカ合衆国")
+    　　　　.css("border-bottom","2px solid purple");
+    $("h3").text("アメリカ合衆国は、北アメリカに位置し、大西洋および太平洋に面する連邦共和制国家です。首都はコロンビア特別区（通称ワシントンD.C.）です。");
+    $(".nippon").attr("src","https://prod-tabinaka.imgix.net/tour/6815_e26748ce7990e93e12196c8d529411ed.jpg?w=400&fm=jpg&q=75&fit=crop");
+  });
+});
