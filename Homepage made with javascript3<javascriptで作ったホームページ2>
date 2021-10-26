@@ -1,0 +1,203 @@
+//abc.html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>東アジアの観光地</title>
+  <link rel="stylesheet" href="./abc.css">
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./c.js"></script>
+</head>
+<body>
+  <header>
+    <h6>東アジアの国々の紹介</h6>
+    <nav>
+    <ul class="cla">
+      <li class="hyouji"><a href="#">目次</a></li>
+      <li class="shutsugen"><a href="#kuni">東アジアの国々</a></li>
+      <li class="shutsugen"><a href="#sekaichizu">東アジアの地図</a></li>
+      <li class="shutsugen"><a href="#shoukai">東アジアの観光地</a></li>
+    </ul>
+    </nav>
+  </header>
+  <main>
+ <div class="submenu">
+   <div class="photo">
+   <img class="japan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Flag_of_Japan.svg/2000px-Flag_of_Japan.svg.png" alt="日本" width="160px" height="100px">
+   <img class="china" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/260px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="中国" width="160px" height="100px">
+　　<img class="korea" src="https://img1.baidu.com/it/u=1156980657,4078485772&fm=26&fmt=auto" alt="韓国" width="160px" height="100px">
+   </div>
+   <p>このホームページでは、東アジアの国々について紹介しています。<br>
+    　紹介している国は、日本、中国、韓国の3つです。<br> 
+     国旗をクリックするとクリックした国の情報が表示されます。</p>
+   <h2 id="kuni">日本国</h2>
+   <p class="kaisetsu">日本は東アジアに位置する島国です。日本の人口は約1億3000万人です。 日本の首都は東京で、東京スカイツリーや浅草、新宿などの観光地が有名です。</p>
+   <img class="nippon" src="https://d37wt07f7gwihi.cloudfront.net/jp/images/3621670/caa781a7d61bcea93a60b0eb7013ea05d48ca724.jpeg?w=400&h=420&quality=75&fit=cover&fm=auto" width="400px" height="400px">
+   <h4 class="world" id="sekaichizu">東アジアの地図</h4>
+   <p>日本、中国、韓国は東アジアにある国です。中国と韓国はユーラシア大陸に位置していて日本は日本列島に位置しています。</p>
+   <img src="https://t.pimg.jp/023/708/161/1/23708161.jpg" alt="sekaichizu" width="450px" height="350px">
+   <h4 class="spot" id="shoukai">東アジアの観光地の紹介</h4>
+   <p>東アジアの様々な観光地を紹介します。ここでは、東京、上海、ソウル、北京、深圳、京都、広州、名古屋の写真を表示しています。</p>
+   <div class="gazou">
+     <button class="A">←</button>
+     <div class="Z">
+   <ul>
+     <li><img src="https://cdn2.veltra.com/ptr/20201022030154_1631185638_10167_0.jpg?imwidth=800&impolicy=custom" alt="skytree" width="200px" height="200px"></li>
+     <li><img src="https://cdn2.veltra.com/ptr/20180713101712_1311097285_2143_0.jpg?imwidth=550&impolicy=custom" alt="shanghai" width="200px" height="200px"></li>
+     <li><img src="https://joah-girls.com/system/item_images/images/000/278/979/medium/60375b73-d3bc-43f3-b508-7e9e10a40982.jpg?1565387722" alt="hanguo" width="200px" height="200px"></li>
+     <li><img src="https://cdn2.veltra.com/ptr/20181120050221_2119980215_10137_0.jpg?imwidth=480&impolicy=custom" alt="beijing" width="200px" height="200px"></li>
+     <li><img src="https://img-cdn.guide.travel.co.jp/article/757/39316/CC19C3BB125846F1B854A92DECC8B8E2_L.jpg" alt="shenzhen" width="200px" height="200px"></li>
+     <li><img src="https://s3-ap-northeast-1.amazonaws.com/tabi-channel/upload_by_admin/kinkakuzi_0_800.jpg" alt="kyoto" width="200px" height="200px"></li>
+     <li><img src="https://cdn.4travel.jp/img/thumbnails/imk/travelogue_album/11/25/81/650x_11258130.jpg?updated_at=1503987230" alt="guangzhou" width="200px" height="200px"></li>
+     <li><img src="https://lifull-homes-press.s3.ap-northeast-1.amazonaws.com/uploads/press/2014/06/pixta_33472220_S-600x450.jpg" alt="nagoya" width="200px" height="200px"></li>
+   </ul>
+  </div>
+    <button class="P">→</button>
+  </div>
+ </div>
+</main>
+<footer>
+  <p>&copy;東アジアの国々の紹介</p>
+</footer>
+</body>
+</html>
+
+//abc.css
+
+img{
+    border-radius: 0px;
+    border: 2px solid black;
+}
+main{
+    margin: 30px;
+}
+h2,h4{
+    background-color: goldenrod;
+    border-bottom: 6px solid gainsboro;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 28px;
+}
+p{
+    text-align: center;
+}
+h3,h5{
+    font-size: 20px;
+}
+.gazou ul{
+    display: flex;
+    list-style: none;
+}
+.gazou ul li{
+    margin: 5px;
+}
+.gazou{
+    display: flex;
+}
+button{
+    height: 30px;
+    width: 70px;
+    margin: auto 0;
+    background: goldenrod;
+    color: black;
+    border-radius: 20px;
+    transition: 700ms;
+}
+button:hover{
+    background: orange;
+}
+.Z{
+    width: 90%;
+    overflow: hidden;
+}
+header{
+    background-image: url(https://www.sozailab.jp/db_img/sozai/49978/1acf9591a072f081edbda4ab515a6490.jpg);
+    height: 170px;
+    color: white;
+    border-bottom: 2px solid black;
+    display: flex;
+}
+footer{
+    background-image: url(https://www.sozailab.jp/db_img/sozai/49978/1acf9591a072f081edbda4ab515a6490.jpg);
+    height: 70px;
+    line-height: 40px;
+    color: whitesmoke;
+    border-top: 2px solid black;
+}
+h6{
+    font-size: 32px;
+    padding: 18px;
+    color: whitesmoke;
+    margin: auto 0;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.cla li{
+    list-style: none;
+    text-align: center;
+    background: goldenrod;
+    border: 1px solid gainsboro;
+    color: black;
+    padding: 0 50px;
+    border-radius: 20px;
+    transition: 500ms;
+}
+.cla li:hover{
+    background: orange;
+}
+body{
+    background: whitesmoke;
+}
+.shutsugen{
+    display: none;
+}
+.hyouji,.shutsugen{
+    width: 130px;
+}
+.shutsugen a,.hyouji a{
+    text-decoration: none;
+    color: black;
+}
+.photo img{
+   margin: 5px;
+}
+
+//c.js
+
+$(function(){
+  $(".japan").click(function(){
+    $("h2").text("日本国");
+    $(".kaisetsu").text("日本は東アジアに位置する島国です。日本の人口は約1億3000万人です。 日本の首都は東京で、東京スカイツリーや浅草、新宿などの観光地が有名です。");
+    $(".nippon").attr("src","https://d37wt07f7gwihi.cloudfront.net/jp/images/3621670/caa781a7d61bcea93a60b0eb7013ea05d48ca724.jpeg?w=400&h=420&quality=75&fit=cover&fm=auto");
+    $(".japan").css("border","2px solid skyblue");
+    $(".china,.korea,.america").css("border","2px solid black");
+  });
+  $(".china").click(function(){
+    $("h2").text("中華人民共和国");
+    $(".kaisetsu").text("中華人民共和国は、中華民国統治下の中国で1921年7月に結党された中国共産党が1949年10月1日に毛沢東中国共産党主席が北京市天安門広場で建国宣言を行ったことで成立しました。中国の人口は約14億人で首都は北京です。");
+    $(".nippon").attr("src","https://whitehole.asia/wp-content/uploads/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20180921200737-1024x768.jpg");
+    $(".china").css("border","2px solid skyblue");
+    $(".japan,.korea,.america").css("border","2px solid black");
+  });
+  $(".korea").click(function(){
+    $("h2").text("大韓民国");
+    $(".kaisetsu").text("大韓民国は、東アジアの朝鮮半島に存在する共和制国家です。首都はソウル特別市です。文化では、BTSやBlackpinkなどのKpopが有名です。");
+    $(".nippon").attr("src","https://d37wt07f7gwihi.cloudfront.net/jp/images/3396408/0bb41a25264c9579494811e9fdab7a93d2d395fa.jpeg?w=400&h=420&quality=75&fit=cover&fm=auto");
+    $(".korea").css("border","2px solid skyblue");
+    $(".japan,.china,.america").css("border","2px solid black");
+  });
+  $(".P").click(function(){
+    $(".Z li:first").appendTo(".Z ul");
+  });
+  $(".A").click(function(){
+    $(".Z li:last").prependTo(".Z ul");
+  });
+$(".hyouji,.shutsugen").hover(function(){
+    $(".shutsugen").toggle();
+});
+});
