@@ -1,0 +1,14 @@
+class w{
+    int month;
+    int day;
+    String sky;
+}
+public class nihao{
+    public static void main(String[] args){
+        w today=new w();
+        today.month=10;
+        today.day=5;
+        today.sky="はれ";
+        System.out.println(today.month+"月"+today.day+"日"+today.sky);
+    }
+}
