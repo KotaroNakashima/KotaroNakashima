@@ -1,0 +1,22 @@
+class Book{
+    int price;
+    int num;
+    String title;
+
+    Book(String t,int p,int n){
+        title=t;
+        price=p;
+        num=n;
+    }
+    void print(){
+        System.out.println("タイトル:"+title);
+        System.out.println("定価"+price);
+        System.out.println("注文部数"+num);
+    }
+}
+public class nihao{
+    public static void main(String[]args){
+        Book a=new Book("Cの絵本",1380,10);
+        a.print();
+    }
+}
