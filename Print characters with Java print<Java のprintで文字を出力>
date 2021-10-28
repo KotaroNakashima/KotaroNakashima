@@ -1,0 +1,7 @@
+public class nihao{
+    public static void main(String[] args){
+        System.out.println("hello world");
+        System.out.print("こんにちは");
+        System.out.print("你好");
+    }
+}
