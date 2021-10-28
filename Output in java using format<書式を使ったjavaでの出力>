@@ -1,0 +1,5 @@
+public class nihao{
+    public static void main(String[] args){
+        System.out.printf("%dは%dよりも大きい\n",2+1,2);
+    }
+}
