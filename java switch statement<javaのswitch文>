@@ -1,0 +1,18 @@
+public class nihao{
+    public static void main(String[] args){
+    for(int a=1;a<=8;a++){
+    System.out.print(a);
+    switch(a%3){
+        case 1:
+        System.out.println(":あまりは1です");
+        break;
+        case 2:
+        System.out.println(":あまりは２です");
+        break;
+        default:
+        System.out.println(":あまりは0です");
+        break;
+    }
+    }
+    }
+}
