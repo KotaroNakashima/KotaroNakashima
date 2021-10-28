@@ -1,0 +1,7 @@
+public class nihao{
+    public static void main(String[] args){
+    int a=3;
+    boolean x=(a>0);
+    System.out.println(x);
+    }
+}
