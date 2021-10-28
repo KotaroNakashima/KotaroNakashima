@@ -1,0 +1,24 @@
+class x{
+    String name;
+    String place;
+    int age;
+
+    void y(String n,String p,int g){
+        name=n;
+        place=p;
+        age=g;
+    }
+    void z(){
+        System.out.println(place+":"+name+age+"歳");
+    }
+    }
+public class nihao{
+    public static void main(String[] args){
+       x a=new x();
+       x b=new x();
+       a.y("犬","庭",14);
+       b.y("猫","家",23);
+       a.z();
+       b.z();
+    }
+}
