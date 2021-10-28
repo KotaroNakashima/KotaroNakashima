@@ -1,0 +1,7 @@
+public class nihao{
+    public static void main(String[] args){
+        int a=3;
+        String b="りんご";
+        System.out.println(b+a+"個");
+    }
+}
