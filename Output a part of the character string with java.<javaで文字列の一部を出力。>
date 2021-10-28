@@ -1,0 +1,8 @@
+public class nihao{
+    public static void main(String[] args){
+        String a="abcdefg";
+        int b=a.length();
+        String c=a.substring(2,5);
+        System.out.println(c);
+    }
+}
