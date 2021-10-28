@@ -1,0 +1,12 @@
+public class nihao{
+    public static void main(String[] args){
+    int a=75;
+    System.out.println("あなたの点数は"+a+"点です。");
+    if(a<70){
+        System.out.println("平均まであと"+a+"点です。");
+        System.out.println("頑張りましょう");
+    }else{
+        System.out.println("おめでとうございます。");
+    }
+    }
+}
