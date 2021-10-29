@@ -1,0 +1,40 @@
+class Book{ 
+    String title;
+    String genre;
+
+    void printBook(){
+        System.out.println("タイトル:"+title);
+        System.out.println("ジャンル:"+genre);
+    }
+}
+class Novel extends Book{
+    String writer;
+
+    void printNov(){
+         printBook();
+         System.out.println("著者"+writer);
+    }
+}
+class Magazine extends Book{
+    int day;
+
+    void printMag(){
+        printBook();
+        System.out.println("発売日"+day+"日");
+    }
+}
+public class nihao{
+    public static void main(String[]args){
+        Novel nov=new Novel();
+        nov.title="c言語入門";
+        nov.genre="プログラミング";
+        nov.writer="a.";
+        Magazine mag=new Magazine();
+        mag.title="Javaの入門";
+        mag.genre="プログラミング";
+        mag.day=20;
+        nov.printNov();
+        System.out.println();
+        mag.printMag();
+    }
+}
