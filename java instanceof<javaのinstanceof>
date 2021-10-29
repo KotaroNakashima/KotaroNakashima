@@ -1,0 +1,16 @@
+interface Cry{
+    void cry();
+}
+class Cat implements Cry{
+    public void cry(){
+        System.out.println("にゃー");
+    }
+}
+public class nihao{
+    public static void main(String[]args){
+        Cat cat=new Cat();
+        if(cat instanceof Cry){
+        cat.cry();
+     }
+}
+}
