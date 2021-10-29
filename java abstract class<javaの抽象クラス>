@@ -1,0 +1,23 @@
+abstract class Book{ 
+    String title;
+    String genre;
+    abstract void v();
+
+    void printBook(String m,String n){
+        title=m;
+        genre=n;
+    }
+}
+class Novel extends Book{
+    void v(){
+         System.out.println("タイトル:"+title);
+         System.out.println("ジャンル:"+genre);
+    }
+}
+public class nihao{
+    public static void main(String[]args){
+        Novel nov=new Novel();
+        nov.printBook("c言語入門","プログラミング");
+        nov.v();
+    }
+}
