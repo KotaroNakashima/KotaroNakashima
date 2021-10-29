@@ -1,0 +1,12 @@
+import java.io.*;
+public class nihao{
+    public static void main(String[]args){
+      try{
+          FileReader fr=new FileReader("sample.txt");
+          System.out.println("sample.txtを読み込みました。");
+      }catch(Exception e){
+          System.out.println("例外が発生しました。");
+          System.out.println(e);
+      }
+    }
+}
