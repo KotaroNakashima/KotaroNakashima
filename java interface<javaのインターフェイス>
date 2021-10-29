@@ -1,0 +1,14 @@
+interface Greet{
+    void greet();
+}
+class Morning implements Greet{
+    public void greet(){
+        System.out.println("おはよう");
+    }
+}
+public class nihao{
+    public static void main(String[]args){
+      Morning morning=new Morning();
+      morning.greet();
+}
+}
