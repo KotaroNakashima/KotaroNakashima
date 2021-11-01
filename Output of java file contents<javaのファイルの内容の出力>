@@ -1,0 +1,19 @@
+import java.io.*;
+public class nihao{
+    public static void main(String[]args){
+      try{
+        FileReader in=new FileReader("abc.html");
+        int c;
+        String s=new String();
+        while((c=in.read())!=-1)
+        s=s+(char)c;
+          System.out.println(s);
+          in.close();
+      }catch(Exception e){
+          System.out.println(e);
+          System.out.println("ありがとう");
+      }finally{
+          System.out.println("完了しました");
+      }
+    } 
+}
