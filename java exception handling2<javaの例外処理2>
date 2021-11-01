@@ -1,0 +1,14 @@
+import java.io.*;
+public class nihao{
+    public static void main(String[]args){
+      try{
+        FileReader fr=new FileReader("abc.html");
+          System.out.println("こんにちは");
+      }catch(Exception e){
+          System.out.println(e);
+          System.out.println("ありがとう");
+      }finally{
+          System.out.println("完了しました");
+      }
+    }
+}
