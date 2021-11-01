@@ -1,0 +1,17 @@
+class Book{
+    String title;
+    String genre;
+
+    void printBook(){
+        System.out.println(title);
+        System.out.println(genre);
+    }
+}
+public class konnichiha{
+    public static void main(String[]args){
+        Book book=new Book();
+        book.title="c言語入門";
+        book.genre="プログラミング";
+        book.printBook();
+        }
+    }
