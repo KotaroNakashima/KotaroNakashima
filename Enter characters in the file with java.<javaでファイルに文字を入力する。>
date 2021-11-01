@@ -1,0 +1,14 @@
+import java.io.*;
+
+public class konnichiha{
+public static void main(String[]args){
+    try{
+        FileWriter out=new FileWriter("nihao.txt");
+        String lf=System.lineSeparator();
+        out.write("おはようございます");
+        out.close();
+    }catch(Exception e){
+        System.out.println(e);
+    }
+        }
+    }
