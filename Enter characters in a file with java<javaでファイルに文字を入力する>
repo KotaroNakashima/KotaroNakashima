@@ -1,0 +1,15 @@
+import java.io.*;
+public class nihao{
+    public static void main(String[]args){
+      try{
+        FileWriter a=new FileWriter("nihao.txt");
+        int c;
+        String s=System.lineSeparator();
+        a.write("こんばんは");
+        a.close();
+      }catch(Exception e){
+          System.out.println(e);
+          System.out.println("ありがとう");
+      }
+    } 
+}
