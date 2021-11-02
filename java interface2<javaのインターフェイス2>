@@ -1,0 +1,22 @@
+interface Greet{
+    void greet();
+}
+interface Talk{
+    void talk();
+}
+class Morning implements Greet,Talk{
+    public void greet(){
+        System.out.println("おはよう");
+    }
+    public void talk(){
+        System.out.println("いい天気ですね");
+    }
+}
+class xiexie{
+    public static void main(String[]args){
+        Morning morning=new Morning();
+        morning.greet();
+        morning.greet();
+        morning.talk();
+    }
+}
