@@ -1,0 +1,15 @@
+import java.io.*;
+public class nihao{
+       public static void main(String[]args){  
+       try{
+           FileInputStream in=new FileInputStream("abc.html");
+           int ch;
+           while((ch=in.read())!=-1){
+               System.out.print(Integer.toHexString(ch)+"");
+           }
+           in.close();
+       }catch(IOException e){
+           System.out.println(e);
+       }
+           }
+       }
