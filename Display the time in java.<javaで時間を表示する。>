@@ -1,0 +1,10 @@
+import java.util.*;
+
+public class xiexie{
+    public static void main(String[]args){
+        Date date=new Date();
+        Calendar cal=new GregorianCalendar();
+        System.out.println(date);
+        System.out.println(cal.get(Calendar.YEAR));
+    }
+}
